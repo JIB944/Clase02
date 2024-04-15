@@ -1,8 +1,5 @@
 Clase 02
 
-Etiquetas
-HTML
-
 CRITERIO DE EVALUCIÓN
 
 En este trabajo práctico se introducen las primeras etiquetas HTML para practicar la semantica y estructura de un archivo HTML
