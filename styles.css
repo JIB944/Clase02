@@ -9,7 +9,7 @@ div {
 }
 h1{
 
-    
+
 }
 body{
     font-family: "Work Sans","Helvetica Neue",Arial,sans-serif;
@@ -26,7 +26,10 @@ header {
     border: 5px solid black;
 
 }
-
+p {
+  color: black;
+  text-align: center;
+}
 
 main{
     width: 980px;
