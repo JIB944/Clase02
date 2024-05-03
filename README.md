@@ -19,3 +19,17 @@ La problemática de la segunda clase consiste en seleccionar una noticia actual 
 5.Pushear la nueva rama y hacer PR apuntando a la rama principal.
 6.Analizar la PR desde GitHub y mergearla.
 7.Responder a la Problemática de la semana 02 de UAI Ultra con el link de Github del repositorio creado antes de la fecha límite de entrega.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Clase 04 
+
+Se agregan archivos styles.css, normalize.css y se modifica el README.md.
+
+En esta ocasión  se agrega el link de la noticia seleccionada:
+
+https://www.ambito.com/negocios/google-sumo-un-nuevo-cable-submarino-mejorar-la-conectividad-argentina-internet-n5978069
+
+
+Google anunció la conclusión del proceso de extensión de Firmina hasta la Argentina, el primer cable submarino internacional que une Argentina (Las Toninas) con los Estados Unidos (Carolina del Sur).
+
+El cable fue diseñado para conectar Brasil (Playa Grande) y Uruguay (Punta del Este) para continuar brindando apoyo a la integración regional.
