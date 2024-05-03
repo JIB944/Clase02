@@ -34,10 +34,16 @@ body{
     background-color: #F2F2F2;
     color: black;
 }
+.bolded { font-weight: bold; }
 
+.emphasized { font-style: italic; }
 
 p {
-  color: black;
+  width: 654.98;
+  color: #121212;
+  font-size: 20px;
+  font-family: "Work Sans", "Helvetica Neue";
+  margin: 0px, opx, 25px;
  
 }
 
