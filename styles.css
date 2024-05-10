@@ -5,26 +5,9 @@
     
 }
 
-header .TemaDia{
-    align-items: center;
-    max-width: 100vw;
-    padding: .625rem 0 .625rem 1.25rem;
-    background-color: #F2F2F2;
-}
-
-header .DropDown{
-    align-items: center;
-    
-    max-width: 100vw;
-    padding: .625rem 0 .625rem 1.25rem;
-    background-color: #F2F2F2;
-}
-
-
-
-h1{
-    color: black;
-
+.Logo{
+    /*align-items: center;*/
+    text-align: center;
 }
 
 body{
@@ -34,18 +17,72 @@ body{
     background-color: #F2F2F2;
     color: black;
 }
+
+footer{
+    width: 1166,67px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px black;
+
+}
+.FooterLogo{
+    text-align: center;
+    border: 5px black;
+}
+.FooterPrincipal{
+
+    color:#121212;
+    font-size: 16PX;
+    font-family:  "Red Hat Display",Arial, Helvetica, sans-serif;
+}
+.FooterBottom{
+
+    background-color:#121212;
+}
+/*
+header {
+    width: 1417.5px;  
+    height: 137.46px;  
+}
+*/
+header .DropDown{
+    
+    width: 1417.5px; 
+   /* max-width: 100vw;*/
+    
+    padding: .625rem 0 .625rem 1.25rem;
+    background-color: #F2F2F2;
+}
+
+h1{
+    color: black;
+
+}
+h2{
+    color: #006699;
+
+}
+.liSecciones li{
+    float: left;
+    margin-right: 20px;
+}
+
+.navega li {
+    float: left;
+    margin-right: 25px;
+}
+.TemaDia{
+    
+    
+    padding: .625rem 0 .625rem 1.25rem;
+    background-color: #F2F2F2;
+}
+
+
+
 .bolded { font-weight: bold; }
 
 .emphasized { font-style: italic; }
-
-p {
-  width: 654.98;
-  color: #121212;
-  font-size: 20px;
-  font-family: "Work Sans", "Helvetica Neue";
-  margin: 0px, opx, 25px;
- 
-}
 
 main{
     width: 980px;
@@ -55,10 +92,47 @@ main{
     position: relative;
 }
 
-footer{
-    width: 1166,67px;
-    margin: 10px;
-    padding: 25px;
-    border: 5px black;
-
+p {
+  width: 654.98px;
+  color: #121212;
+  font-size: 20px;
+  font-family: "Work Sans", "Helvetica Neue";
+  margin: 0px, opx, 25px;
+ 
 }
+
+
+
+/* Estilos para pantallas más pequeñas, como móviles */
+@media (max-width: 600px) {
+    .Logo {
+        text-align: center;
+    }
+    
+    .TemaDia, header .DropDown, body {
+        padding: 10px; 
+    }
+    
+    main, footer {
+        width: 90%; 
+        margin: 5px; 
+    }
+}
+
+
+
+
+/* Estilos para tabltas */
+@media (min-width: 601px) and (max-width: 1024px) {
+    
+}
+
+
+
+
+/* Estilos para pantallas más grandes, como escritorios */
+@media (min-width: 1025px) {
+    
+}
+
+
